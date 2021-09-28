@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav {
+  padding: 20px;
+  text-align: right;
+}
+
+.nav .nav-link {
+  margin-left: 20px;
+}
+
+section {
+  margin-top: 10%;
+  text-align: center;
+}
+
+section img {
+  width: 400px;
+  height: auto;
+  cursor: pointer;
+}
+
+section input {
+  width: 600px;
+  height: 45px;
+  font-size: 20px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-left: 60px;
+  margin-bottom: 25px;
+  border-radius: 25px;
+  border: 1px solid #dfdfdf;
+}
+
+section input:focus {
+  border: 1px solid white;
+  outline: 0px solid white;
+  -webkit-box-shadow: 0px 1px 5px 1px #dfdfdf;
+          box-shadow: 0px 1px 5px 1px #dfdfdf;
+}
+
+section input:hover {
+  border: 1px solid white;
+  outline: 0px solid white;
+  -webkit-box-shadow: 0px 1px 5px 1px #dfdfdf;
+          box-shadow: 0px 1px 5px 1px #dfdfdf;
+}
+
+section .buttons {
+  width: 100%;
+  margin-top: 5px;
+  box-align: left;
+  display: inline-block;
+}
+
+section button {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  font-size: 14px;
+  color: #5d5d5d;
+  border-radius: 5px;
+  background-color: #eeeeee;
+}
+
+section button:hover {
+  color: black;
+  border: 0.5px solid #bfbfbf;
+  -webkit-box-shadow: 0px 0.5px 2px 1px #dfdfdf;
+          box-shadow: 0px 0.5px 2px 1px #dfdfdf;
+}
+
+section .mic {
+  top: 5px;
+  width: 24px;
+  left: -50px;
+  height: 24px;
+  position: relative;
+}
+
+section .search {
+  top: 35px;
+  right: 300px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.languages-header > a {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+footer {
+  margin-top: auto;
+}
+
+footer > div {
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer * a {
+  margin-left: 25px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=styles.css.map */
