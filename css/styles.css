@@ -155,4 +155,58 @@ footer * a {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+}
+
+.box {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.box #search {
+  position: relative;
+  left: 35px;
+  top: 5px;
+}
+
+.box #search:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.box #mic {
+  position: relative;
+  right: 35px;
+  top: 5px;
+}
+
+.box #mic:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
 /*# sourceMappingURL=styles.css.map */
