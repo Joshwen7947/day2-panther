@@ -26,9 +26,10 @@
 			</div>
 			<br />
 			<input autofocus />
+
 			<br />
 			<div class="button-container">
-				<button onclick="viewResults()">Google Search</button>
+				<button id="myButton">Google Search</button>
 				<button>I'm feeling lucky</button>
 			</div>
 		</section>
@@ -48,5 +49,10 @@
 				</div>
 			</div>
 		</footer>
+		<script type="text/javascript">
+			document.getElementById('myButton').onclick = function () {
+				location.href = 'results.html';
+			};
+		</script>
 	</body>
 </html>
